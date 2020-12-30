@@ -1,0 +1,181 @@
+/* general */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(57, 58, 59);
+    margin-top: 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    font-size: 50px;
+    font-weight: 400;
+}
+/* fin general */
+/* header */
+header {
+    background-color: rgb(26, 26, 29);
+    display: flex;
+    justify-content: space-between;
+}
+#logo {
+    align-self: center;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    color: white;
+}
+nav li {
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+    text-align: center;
+}
+nav img {
+    height: 65px;
+    width: 65px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* fin header */
+/* section1 */
+#section1 img {
+    width: 100%;
+}
+/* fin section1 */
+/* about */
+#about {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#about div {
+    /* width: 50%; */
+}
+#about-img {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+#about-text {
+    width: 60%;
+}
+#about img {
+    width: 263px;
+    height: 213px;
+    margin-top: 10px;
+}
+/* fin about */
+/* pack */
+#pack {
+    background-color: rgb(51, 77, 92);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px; 
+}
+#title {
+    display: flex;
+}
+#pack-img {
+    width: 40%;
+}
+#pack-img img {
+    margin-left: 200px;
+}
+#pack-icons {
+    display: flex;
+    justify-content: space-around;
+}
+#pack-icons div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#pack-icons h2, p {
+    text-align: center;
+}
+#pack-icons p {
+    width: 240px;
+}
+#pack-icons button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 35px;
+    background-color:white;
+    color: rgb(51, 77, 92);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    border: none;
+}
+/* fin pack */
+/* outils */
+#outils {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#outils-title {
+    display: flex;
+}
+#outils-icons {
+    display: flex;
+    justify-content: space-around;
+}
+#outils-img {
+    width: 40%;
+}
+#outils-img img {
+    margin-left: 200px;
+}
+#outils-icons div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 226px;
+    height: 226px;
+}
+#outils-icons h2 {
+    text-align: center;
+}
+#outils-icons p {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#outils-icons button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 226px;
+    height: 35px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    border: none;
+    background-color: rgb(57, 58, 59);
+    color: white;
+}
+#outils-icons p {
+    height: 75px;
+}
+/* fin outils */
+/* footer */
+footer {
+    background-color: rgb(57, 58, 59);
+    display: flex;
+    height: 300px;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+footer img {
+    width: 50px;
+    margin-right: 20px;
+}
+footer p {
+    text-align: left;
+    margin-bottom: 30px;
+}
+/* fin footer */
